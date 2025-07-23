@@ -1,0 +1,46 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Model artifacts
+*.pkl
+*.joblib
+model_artifacts/
+
+# Streamlit specific
+.streamlit/config.toml
+.streamlit/*.json
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs and cache
+*.log
+*.out
+*.bak
+*.tmp
+.cache/
+*.egg-info/
+
+# Data files (optional - if data is sensitive or large)
+data/
+*.csv
+*.xlsx
+*.tsv
+
+# OS/System-specific
+Thumbs.db
+desktop.ini
